@@ -28,9 +28,10 @@
         {{ ckeditor.load() }}
         {{ ckeditor.config(name='body') }}
         {{ wtf.quick_form(form, novalidate=True, button_map={"submit": "primary"}) }}
-      </div>
-    </div>
+  </div>
+  </div>
   </div>
 
+  
 {% include "footer.html" %}
 {% endblock %}
